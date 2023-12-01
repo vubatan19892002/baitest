@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins";
+  /* font-family: "Instrument Serif"; */
+  line-height: 1.42857143;
+  font-size: 14px;
+  color: #000;
+  background: #fff;
+}
+.main {
+  width: 1917px;
+  height: 917px;
+  gap: 10px;
+}
+.section1 {
+  width: 100%;
+  height: 100%;
+  padding: 70px 194px 30px 194px;
+  /* color: #fffdf4; */
+  background-color: #fffdf4;
+  display: block;
+}
+
+.header-container {
+  width: 519px;
+  height: 154px;
+  margin-bottom: 20px;
+}
+.header-container > h1 {
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 53px;
+  letter-spacing: -0.05em;
+  text-align: left;
+  color: #374639;
+  padding-bottom: 20px;
+}
+.header-container > p {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3f514b;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 18px;
+}
+.item-content {
+  padding-top: 8px;
+}
+.item-title h4 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  padding-bottom: 8px;
+}
+.item-title p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 8px;
+}
+.price del {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.price span {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.item-instruct {
+  margin-top: 20px;
+}
+.instruct {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #ecedec;
+  align-items: center;
+}
+.instruct > span {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  margin-right: 10px;
+}
+.instruct p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.soild {
+  border-bottom: 1px solid #ecedec;
+}
+.section2 {
+  width: 1920px;
+  height: 1260px;
+  background: #fff9f5;
+}
+.section2-header > h1 {
+  font-family: "Instrument Serif";
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 61px;
+  letter-spacing: -0.01em;
+  text-align: center;
+}
+.section2-header {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.section2-container {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  padding-left: 220px;
+  padding-right: 220px;
+  color: #462b20;
+}
+.container-left_img > img {
+  width: 560px;
+  height: 315px;
+  /* padding-bottom: 20px; */
+}
+.container-left_item_instruct {
+  padding-top: 20px;
+}
+.container-left {
+  flex: 4.5;
+  margin-top: 60px;
+}
+.container-right {
+  flex: 5.5;
+}
+.instruct1 {
+  width: 560px;
+
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  border-top: 1px solid #462b20;
+}
+.instruct1 > i {
+  width: 12px;
+  height: 12px;
+  padding: 5px;
+}
+.instruct-title1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #462b20;
+  /* border-bottom: 1px solid #462b20; */
+}
+.instruct-title2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #462b20;
+  /* border-bottom: 1px solid #462b20; */
+}
+.instruct-title3 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #462b20;
+  /* border-bottom: 1px solid #462b20; */
+}
+.instruct-title4 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #462b20;
+  /* border-bottom: 1px solid #462b20; */
+}
+.instruct-title > span {
+  font-family: "Instrument Serif";
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.instruct1 > p {
+  /* width: 499px;
+  height: 92px; */
+  display: none;
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #42291fd9;
+  padding-bottom: 15px;
+}
+.open {
+  display: block !important;
+}
+.icon-instuct1 {
+  padding: 5px;
+  cursor: pointer;
+}
